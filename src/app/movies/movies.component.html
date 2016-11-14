@@ -1,0 +1,21 @@
+<div>
+  <div *ngFor="let movie of movies">
+    <h1>{{movie.title}}</h1>
+   <p><label>Tagline:</label>{{movie.tagline}}<p>
+     <p><label>Budget:</label>{{movie.budget}}<p>
+        <p><label>Revenue:</label>{{movie.revenue}}<p>
+           <p><label>Release Date:</label>{{movie.release_date}}<p>
+  <p><label>Overview:</label> <details>{{movie.overview}}</details><p>
+    <md-grid-list cols="2" rowHeight="1000px">
+      <md-grid-tile *ngFor="let prod of movie.production_companies" >
+      <img src="https://image.tmdb.org/t/p/original/{{movie.poster_path}}" alt="photo of {{movie.title}}">
+        <md-grid-tile-footer>
+         <h3 md-line>{{prod.name}}</h3>
+         <button md-icon-button  (click)="showProfile(movie)">
+            <md-icon>info</md-icon>
+          </button>
+        </md-grid-tile-footer>
+      </md-grid-tile>
+    </md-grid-list>
+    </div>
+</div>
