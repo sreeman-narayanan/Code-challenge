@@ -1,16 +1,13 @@
 <div [class.dark-theme]="isDarkTheme">
 <md-toolbar color="primary">
       <span class="example-fill-remaining-space"></span>
-      <span class="md-primary">
-       {{title}}
-    </span>
+      <span class="md-primary">{{title}}</span>
     <span class="example-fill-remaining-space"></span>
     <button md-icon-button [md-menu-trigger-for]="menu">
       <md-icon>more_vert</md-icon>
     </button>
      <md-toolbar-row>
-<button md-button routerLink="./" routerLinkActive="active"
-        [routerLinkActiveOptions]="{ exact: true }">Movies</button>
+<button md-button routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Movies</button>
     <button md-button routerLink="./games" routerLinkActive="active">Games</button>
    <span class="example-fill-remaining-space"></span>
   </md-toolbar-row>

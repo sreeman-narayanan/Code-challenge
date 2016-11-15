@@ -1,0 +1,56 @@
+.movie{
+    width:600px;
+    margin:20px auto;
+    box-shadow:0 1px 5px rgba(0,0,0,0.6);
+    padding:10px;
+    border-radius:4px;
+}
+.poster{
+    max-width:300px;
+    float:right;
+    margin:0 0px 20px 20px;
+}
+.card{
+    max-width:400px;
+    display:inline-block;
+}
+.title{
+    font-size:24px;
+}
+.tagline{
+    font-size:12px;
+    margin-bottom:20px;
+}
+.overview{
+    font-size:14px;
+}
+.clear{
+    clear:both;
+}
+.question{
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+}
+.answer{
+    font-size:14px;
+}
+.details{
+    width:600px;
+    margin:0 auto;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+.chips{
+    padding:3px 10px;
+    margin:5px 5px 5px 0;
+    background-color:#CCC;
+    color:#000;
+    border-radius:15px;
+    display:inline-block;
+    font-size:12px;
+}
+.dark-theme .chips{
+        background-color:#000;
+        color:#f9f9f9;
+    }

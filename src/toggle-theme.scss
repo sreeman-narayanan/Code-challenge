@@ -10,8 +10,8 @@ $theme: md-light-theme($primary, $accent);
 @include angular-material-theme($theme);
 
 .dark-theme {
-  $dark-p: md-palette($md-pink, 700);
-  $dark-a: md-palette($md-blue-grey);
+  $dark-p: md-palette($md-blue-grey, 700);
+  $dark-a: md-palette($md-red);
 
   $dark-t: md-dark-theme($dark-p, $dark-a);
 

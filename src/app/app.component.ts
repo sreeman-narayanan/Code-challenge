@@ -9,4 +9,5 @@ import { MoviesComponent } from './movies/movies.Component'
 })
 export class AppComponent {
   title = 'Code Challenge';
+  isDarkTheme = true;
 }
